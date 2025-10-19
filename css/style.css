@@ -57,7 +57,8 @@
 #headerWrap .authBox .btn{margin-left: 36px;}
 #headerWrap .authBox .btn img{display: block;}
 #headerWrap .authBox .mobileBtn{display: none;}
-#headerWrap .sitemapBox{display: none; align-items: center; gap: 0 150px; justify-content: center; padding: 100px 0; position: fixed; top:0; left:0; right:0; bottom: 0; z-index: 999; background-color: #262452;}
+#headerWrap .sitemapBox{display: none; padding: 100px 0; position: fixed; top:0; left:0; right:0; bottom: 0; z-index: 999; background-color: #262452;}
+#headerWrap .sitemapBox .layoutBox{height: 100%; display: flex; align-items: center; gap: 0 150px; justify-content: center; }
 #headerWrap .sitemapBox .sitemapDepth01 li h2 a{padding: 20px; display: block; color: #fff; font-size: 30px;}
 #headerWrap .sitemapBox .infoBox{padding: 25px 50px 30px; background-color: #353c73; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, .15);}
 #headerWrap .sitemapBox .infoBox p{margin-bottom: 25px; font-size: 24px; color: #fff; font-weight: 700;}
@@ -86,8 +87,8 @@
   #headerWrap{padding: 0 20px;}
   #headerWrap .headerBox nav,
   #headerWrap .sitemapBtn,
-  #headerWrap .sitemapBox nav,
-  #headerWrap .authBox a{display: none;}
+  #headerWrap .sitemapBox,
+  #headerWrap .authBox a{display: none!important;}
   #headerWrap .authBox .mobileBtn{display: block;}
 
   #headerWrap .logoBox h1 img{width: 120px;}
