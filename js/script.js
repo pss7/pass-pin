@@ -20,7 +20,7 @@ $(function () {
     $('#headerWrap .bg').fadeIn();
   });
 
-  $('#headerWrap .mobileMenuBox .sitemapClose').click(function () {
+  $('#headerWrap .mobileMenuBox .closeBtn').click(function () {
     $('#headerWrap .mobileMenuBox').animate({
       right: -3000
     })
@@ -30,7 +30,7 @@ $(function () {
   $('#headerWrap .authBox .btn').click(function () {
     $('#headerWrap .sitemapBox').fadeIn();
   });
-  $('#headerWrap .sitemapBox .sitemapClose').click(function () {
+  $('#headerWrap .sitemapBox .closeBtn').click(function () {
     $('#headerWrap .sitemapBox').fadeOut();
   });
 

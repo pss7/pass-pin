@@ -66,12 +66,12 @@
 #headerWrap .sitemapBox .infoBox .list li:last-child{margin-bottom: 0;}
 #headerWrap .sitemapBox .infoBox .list li span{flex-shrink: 0; width: 80px; font-size: 14px; color: #898989;}
 #headerWrap .sitemapBox .infoBox .list li em{font-size: 14px; color: #fff;}
-#headerWrap .sitemapBox .sitemapClose{position: absolute; top:30px; right:30px; width: 32px; height: 32px;}
-#headerWrap .sitemapBox .sitemapClose::before,
-#headerWrap .sitemapBox .sitemapClose::after {content: ""; position: absolute;
+#headerWrap .sitemapBox .closeBtn{position: absolute; top:30px; right:30px; width: 32px; height: 32px;}
+#headerWrap .sitemapBox .closeBtn::before,
+#headerWrap .sitemapBox .closeBtn::after {content: ""; position: absolute;
   top: 50%; left: 50%; width: 70%; height: 2px; background: #fff; transform-origin: center; transition: transform 0.2s ease, background-color 0.2s ease;}
-#headerWrap .sitemapBox .sitemapClose::before {transform: translate(-50%, -50%) rotate(45deg);}
-#headerWrap .sitemapBox .sitemapClose::after {transform: translate(-50%, -50%) rotate(-45deg);}
+#headerWrap .sitemapBox .closeBtn::before {transform: translate(-50%, -50%) rotate(45deg);}
+#headerWrap .sitemapBox .closeBtn::after {transform: translate(-50%, -50%) rotate(-45deg);}
 #headerWrap .sitemapBox .copyText{position: absolute; left: 30px; bottom: 30px; color: #fff; font-weight: 700;}
 #headerWrap .bg,
 #headerWrap .mobileMenuBox{display: none;}
@@ -103,12 +103,12 @@
   #headerWrap .mobileMenuBox .infoBox .list li:last-child{margin-bottom: 0;}
   #headerWrap .mobileMenuBox .infoBox .list li span{flex-shrink: 0; width: 80px; font-size: 14px; color: #898989;}
   #headerWrap .mobileMenuBox .infoBox .list li em{font-size: 14px; color: #fff;}
-  #headerWrap .mobileMenuBox .sitemapClose{position: absolute; top:30px; right:30px; width: 32px; height: 32px;}
-  #headerWrap .mobileMenuBox .sitemapClose::before,
-  #headerWrap .mobileMenuBox .sitemapClose::after {content: ""; position: absolute;
+  #headerWrap .mobileMenuBox .closeBtn{position: absolute; top:30px; right:30px; width: 32px; height: 32px;}
+  #headerWrap .mobileMenuBox .closeBtn::before,
+  #headerWrap .mobileMenuBox .closeBtn::after {content: ""; position: absolute;
     top: 50%; left: 50%; width: 70%; height: 2px; background: #fff; transform-origin: center; transition: transform 0.2s ease, background-color 0.2s ease;}
-  #headerWrap .mobileMenuBox .sitemapClose::before {transform: translate(-50%, -50%) rotate(45deg);}
-  #headerWrap .mobileMenuBox .sitemapClose::after {transform: translate(-50%, -50%) rotate(-45deg);}
+  #headerWrap .mobileMenuBox .closeBtn::before {transform: translate(-50%, -50%) rotate(45deg);}
+  #headerWrap .mobileMenuBox .closeBtn::after {transform: translate(-50%, -50%) rotate(-45deg);}
   #headerWrap .mobileMenuBox .copyText{position: absolute; left: 30px; bottom: 30px; color: #fff; font-weight: 700;}
   #headerWrap .bg{position: fixed; top:0; left:0; right:0; bottom: 0; background-color: rgba(0,0,0,.5);}
 
